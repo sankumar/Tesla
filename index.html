@@ -1,0 +1,70 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<title>Tesla Car Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/tesla.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="tesla-header">
+	<section class="tesla-head-title">
+		<h1 class="text-center">Telsa</h1>
+	</section>
+</header>
+<section class="container">
+	<section class="row">
+		<section class="col-xs-12 col-sm-12">
+			<section class="tesla-video-container">
+				<video autoplay loop>
+					<source src="https://www.tesla.com/sites/default/files/videos/home-video-sx-2016.mp4?20160719" type="video/mp4">
+					<source src="https://www.tesla.com/sites/default/files/videos/home-video-sx-2016.ogg?20160719" type="video/ogg">
+					<source src="https://www.tesla.com/sites/default/files/videos/home-video-sx-2016.webm?20160719" type="video/webm">
+				</video>
+			</section>
+		</section>
+	</section>
+	
+	<section class="row">
+		<section class="col-xs-12 col-sm-12">
+			<article class="tesla-quotes text-center">
+				<p>Be the first to own a new Tesla Model 3 Sign up to our mailing list to find out more.</p>
+			</article>
+		</section>
+	</section>
+	
+	<section class="row">
+		<section class="col-xs-12 col-sm-12">
+			<form method="post" id="teslaForm">
+				<section class="tesla-form-email mb25">
+					<label class="sr-only" name="email">Email Address</label>
+					<input class="form-control" type="email" name="Email address" placeholder="Email address" />
+				</section>
+				<section class="form-inline">
+					<section class="form-group tesla-inline-form">
+						<input type="text" class="form-control tesla-90" placeholder="first name" /> 
+					</section>
+					<section class="form-group tesla-inline-form">
+						<input type="text" class="form-control tesla-90" placeholder="last name" /> 
+					</section>
+					<section class="form-group tesla-inline-form">
+						<select class="form-control tesla-90" id="country">
+							<option value="India">India</option>
+							<option value="United States">United States</option>
+							<option value="United Kingdom">United Kingdom</option>
+							<option value="Australia">Australia</option>
+							<option value="Canada">Canada</option>
+						</select>
+					</section>
+					<button type="submit" class="btn btn-success tesla-btn-primary width20">Submit</button>
+				</section>
+			</form>
+		</section>
+	</section>
+</section>
+<script src="lib/js/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="lib/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+<script src="lib/js/app.js" type="text/javascript"></script>
+</body>
+</html>
